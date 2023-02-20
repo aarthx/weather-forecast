@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="nav">
+      <img class="nav-logo" src="./css/img/logo2.png" alt="logo do site" />
+    </section>
+
+    <section class="sub-nav"></section>
+
+    <section class="main-container">
+      <div class="interface">
+        <form class="city-search">
+          <input
+            type="text"
+            class="city-input"
+            list="sugerido"
+            placeholder="Digite sua cidade"
+          />
+          <button class="btn-search">Buscar</button>
+        </form>
+        <div id="sugerido"></div>
+      </div>
+    </section>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
